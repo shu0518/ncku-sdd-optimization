@@ -3,7 +3,7 @@
 > A terminal flashcard tool built by spec-driven development: v1.0 ships a random-draw CLI with a forward-looking architecture, and v2.0 adds an SM-2 spaced-repetition scheduler on top of it without changing the storage layer or the data schema.
 
 `Course project` · Netdb Lab, NCKU · AIASE 2026 · Individual
-**Stack:** Python · Click · SM-2 spaced-repetition algorithm · JSON (atomic-write repository)
+**Stack:** Python >= 3.10 · Click · SM-2 spaced-repetition algorithm · JSON (atomic-write repository)
 
 ## Overview
 
@@ -50,3 +50,6 @@ python main.py stats
     v2/               Adds SM2ReviewStrategy, `edit`/`stats` commands, `--mode` flag
     v1/sdd_v1.md      v1 spec, including the T01-T10 acceptance-test table
     v2/sdd_v2.md      v2 spec (SM-2 requirements, backward-compatibility constraints)
+
+---
+Original course-assignment README (in Chinese): [docs/course-requirements.md](docs/course-requirements.md)
